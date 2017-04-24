@@ -1,20 +1,194 @@
 body {
 	font-family: "PT Sans Narrow", sans-serif;
-	font-size: 14pt;
+	font-size: 14px;
 	color: black;
-	line-height: 24pt;
+	line-height: 24px;
+	text-transform: uppercase;
+	margin: 0;
 }
 
-.index-content-title,
-.catalog-title,
-.item-title {
-	font-size: 30pt;
-	text-transform: uppercase;
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.catalog-item-title,
+.title-2 {
+	font-size: 30px;
+	line-height: 42px;
 }
 
 
-.catalog-content-title ,
-.item-content-title  {
-	font-size: 24pt;
-	text-transform: uppercase;
+.headline-form ,
+.set-header {
+	font-size: 24px; /*не совпадают пункты*/
+	line-height: 30px;
+}
+
+.name-product {
+	font-size: 14px;
+	line-height: 18px;
+}
+
+.filter-manufacturers,
+.filter-group-product {
+	border: none;
+}
+
+.main-header {
+	background: black;
+	 margin-bottom: 60px;
+}
+
+.container {
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.main-navigation {
+  float: left;
+  width: 780px;
+}
+
+.main-navigation ul li {
+	display: inline-block;
+}
+
+.user-block {
+  float: right;
+  width: 140px;
+}
+
+.index-logo {
+  width: 368px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 25px;
+}
+
+
+.features {
+  margin-bottom: 80px;
+}
+
+.features-item {
+  float: left;
+  width: 300px;
+   margin-right: 20px;
+}
+
+.features-item:last-child {
+  margin-right: 0;
+}
+
+.index-content {
+  margin-bottom: 35px;
+  padding: 50px 80px;
+}
+
+.index-content-left {
+  float: left;
+  width: 380px;
+}
+
+.index-content-right {
+  float: right;
+  width: 300px;
+}
+
+.main-footer {
+  margin-top: 65px;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.footer-contacts {
+  float: left;
+  width: 320px;
+  margin-right: 60px;
+}
+
+.footer-social {
+  float: left;
+  width: 180px;
+}
+
+.footer-copyright {
+  float: right;
+  width: 180px;
+}
+
+.header-logo {
+	float: left;
+	width: 140px;
+}
+
+.navigation-catalog {
+	width: 620px;
+}
+
+.breadcrumbs  li{
+	display: inline-block;
+	margin-bottom: 52px;
+}
+
+.filter {
+	width: 220px;
+	float: left;
+	padding-left: 0;
+}
+
+.catalog-content {
+	width: 710px;
+	float: right;
+}
+
+.cart-product {
+	width: 220px;
+	min-height: 290px;
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 27px;
+}
+
+.cart-product:nth-child(3n) {
+	margin-right: 0;
+}
+
+
+.catalog-paginator {
+	width: 194px;
+}
+
+
+.catalog-item-picture {
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 22px;
+}
+
+.catalog-gallery {
+	float: left;
+	width: 480px;
+	margin-right: 60px;
+}
+
+.gallery-content {
+	margin: 0;
+}
+
+.desc-product {
+	width: 400px;
+	float: left;
+	margin-bottom: 66 px;
+}
+
+.product-content {
+	float: left;
+}
+
+.main-footer {
+	background: url(../img/bg-footer.jpg) repeat;
 }
